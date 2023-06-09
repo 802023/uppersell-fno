@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color: #0b1524;
+}
 .title1{
     color: white;
     font-size: 25px;
@@ -20,11 +22,12 @@
 }
 
 .frame{
-    width:auto; 
-    height:auto;
+    width:700px; 
+    height:400px;
 }
 
 .bg-bak {
+    /* height: 100vh; */
     box-shadow: rgba(12, 12, 15, 0.911) 3000px 3000px 3000px 3000px inset;
     position: relative;
     margin: 0px;
@@ -42,7 +45,7 @@
 .btn-curso-pago-1{
     margin: 20px;
     width: auto;
-    height: auto;
+    /* height: auto; */
     font-size: 30px;
     padding: 20px;
     border: none;
@@ -62,7 +65,7 @@
     width: 50%;
 }
   }
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .title1{
     color: white;
     font-size: 25px;
@@ -70,9 +73,13 @@
     margin: 20px;
     text-align: center;
     width: 60%;
-}
+    }
+    .frame{
+        width:auto; 
+        height:auto;
+    }
   }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .title1{
     color: white;
     font-size: 25px;
@@ -80,9 +87,13 @@
     margin: 20px;
     text-align: center;
     width: 70%;
-}
+    }
+    .frame{
+        width:auto; 
+        height:auto;
+    }
   }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .title1{
     color: white;
     font-size: 25px;
@@ -90,9 +101,13 @@
     margin: 20px;
     text-align: center;
     width: auto;
-}
+    }
+    .frame{
+        width:auto; 
+        height:auto;
+    }
   }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .title1{
     color: white;
     font-size: 25px;
@@ -100,5 +115,9 @@
     margin: 20px;
     text-align: center;
     width: auto;
-}
+    }
+    .frame{
+        width:auto; 
+        height:auto;
+    }
   }
