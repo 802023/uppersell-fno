@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -36,10 +37,14 @@ body{
     background: url(./image/BG-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .btn-curso-pago{
     height: auto;
+/*     
+    animation: pulse;
+    --animate-infinite: infinite; */
 }
 
 .btn-curso-pago-1{
@@ -53,6 +58,11 @@ body{
     box-shadow: rgba(68, 64, 64, 0.24) 0px 3px 8px;
     background-color: rgb(27, 27, 252);
     color: white;
+}
+.btn-curso-pago-1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
 }
 
 @media screen and (min-width: 995px) {
